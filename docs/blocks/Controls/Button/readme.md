@@ -4,20 +4,20 @@ Render a button
 
 ## Draggable To
 
-- [Footer](../Footer)
-- [TabFooter](../TabFooter)
+- [Footer](../../Footer)
+- [TabFooter](../../TabFooter)
 
 ## Properties
 
-![http://crmgialog.phuocle.net](../../images/03.png)
+![http://crmdialog.phuocle.net](../../../images/03.png)
 
-|Name|Required|Description|Where
+|Name|Required|Description|A picture is worth a thousand words
 |-|-|-|-|
-|Control Id|x|The [Control Id](../../others/ControlId)
+|Control Id|x|The [Control Id](../../../others/ControlId)
 |Label|x|Then label show on the button
-|Disabled||Disabled button OnLoad, If yes|![http://crmgialog.phuocle.net](../../images/04.png)
-|Visible||Hide button OnLoad, If no|![http://crmgialog.phuocle.net](../../images/05.png)
-|On Click|x|Fire [Event](../Event) when user click on the button
+|Disabled||Disabled button OnLoad, If yes|![http://crmdialog.phuocle.net](../../../images/04.png)
+|Visible||Hide button OnLoad, If no|![http://crmdialog.phuocle.net](../../../images/05.png)
+|On Click|x|Fire [Event](../../MetaData/Event) when user click on the button
 
 ## FormXml
 
