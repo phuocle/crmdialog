@@ -4,6 +4,6 @@
 
 ## Examples
 
-- [Find User Id](../examples/example01/readme.md)
-- [All Textboxes](../examples/example02/readme.md)
+- [Find User Id](../examples/example01)
+- [All Textboxes](../examples/example02)
 

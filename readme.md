@@ -6,11 +6,11 @@ Always remmeber this is **unsupport** (until now).
 
 ## Documents
 
-- [How to use crmdialog](docs/readme.md)
+- [How to use crmdialog](docs)
 
 ## Examples
 
 An easy to learn that doing the examples one by one that you can develop your own crmdialog
 
-- [Find User Id](examples/example01/readme.md)
-- [All Textboxes](examples/example02/readme.md)
+- [Find User Id](examples/example01)
+- [All Textboxes](examples/example02)
