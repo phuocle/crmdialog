@@ -14,9 +14,9 @@ Render a button
 |Name|Required|Description|A picture is worth a thousand words
 |-|-|-|-|
 |Control Id|x|The [Control Id](../../../others/ControlId)
-|Label|x|Then label show on the button
-|Disabled||Disabled button OnLoad, If yes|![http://crmdialog.phuocle.net](../../../images/04.png)
-|Visible||Hide button OnLoad, If no|![http://crmdialog.phuocle.net](../../../images/05.png)
+|Label|x||![http://crmdialog.phuocle.net](../../../images/12.png)
+|Disabled|||![http://crmdialog.phuocle.net](../../../images/04.png)
+|Visible|||![http://crmdialog.phuocle.net](../../../images/05.png)
 |On Click|x|Fire [Event](../../MetaData/Event) when user click on the button
 
 ## FormXml
