@@ -17,7 +17,5 @@ Reference and JavaScript to form. E.g. WebApi, Lodash, Underscore, ...
 ## FormXml
 
 ```xml
-<clientincludes>
-    <internaljscriptfile src="$webresource:pl_/lib/WebApi.min.js" />
-</clientincludes>
+<internaljscriptfile src="$webresource:pl_/lib/WebApi.min.js" />
 ```
