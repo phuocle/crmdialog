@@ -1,8 +1,6 @@
-# crmdialog
-
 Friends, did you check [my announce crmdialog](https://www.phuocle.net/post/2020-06-14-crmdialog/)? If no, please check it before you continue.
 
-## Unsupported
+## 😠Unsupported😠
 
 **YES**, It ```true``` until now
 
@@ -10,7 +8,7 @@ Friends, did you check [my announce crmdialog](https://www.phuocle.net/post/2020
 
 ## Why unsupported
 
-Because we use ```2``` JavaScript function that **not** document
+Because we use ```2``` ```JavaScript``` function that **not** document
 
 ```js
 Xrm.Navigation.openDialog(...)
@@ -32,6 +30,13 @@ If your project need a dialog **supported**, please find another way.
 ## Howtos
 
 - [Use crmdialog](docs)
+- [Open form dialog](docs/others/OpenFormDialog)
+- [Pass data to form](docs/others/PassDataToForm)
+- [Read data from dialog after from closed](docs/others/ReadDataAfterFormClosed)
+- [Move to other tab](docs/others/MoveToOtherTab)
+- [Close form](docs/others/CloseForm)
+- [Form dialog options](docs/others/FormDialogOptions)
+- [PCF](docs/others/PCF)
 
 ## Examples
 
