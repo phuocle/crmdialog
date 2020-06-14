@@ -10,19 +10,19 @@ Find User Id of User Name.
 
 |Action|Properties|Description
 |-|-|-|
-|Select [MetaData](../../docs/blocks/MetaData) block|![http://crmdialog.phuocle.net](images/01.png)|<ul><li><p>**```pl_example01```** dialog name</p><p>*Noted:* Dialog name is [logical name](../../docs/others/ControlId) and should **```unquie name```** of your organization</p></li><li>**```1033```** English(United States) language code</li><li>**```1.0.0.0```** solution version</li><li>**```Example 01```** the short description of the form</li><li>**```Find User Id```** the full description of the form</li><li><p>**```example01.OnLoad```** OnLoad event of form</p><p>*Noted:* you cannot select it because the [event OnLoad](../../docs/blocks/MetaData/Event) not exist on form, you will back and update it later</p></li></ul>
-|From [blocks](../../docs/blocks) drag [event](../../docs/blocks/MetaData/Event) and drop to [MetaData](../../docs/blocks/MetaData) block|![http://crmdialog.phuocle.net](images/02.png)|<p><ul><li>**```OnLoad```**</li><li>**```Enabled```** yes</li><li>**```pl_/examples/example01.js```** WebResource name</li><li>**```example01.OnLoad```** trigger function name</li><li>**```Execution Context```** yes, pass the execution context as the first parameter to trigger function</li><li>**```Parameters```** pass as the first and/or second parameter to trigger function</li></ul></p><p>*Noted:* Remember select [MetaData](../../docs/blocks/MetaData) block to update the **```OnLoad```** property after you define this [event](../../docs/blocks/MetaData/Event)</p>
-|Continue add 2 [events](../../docs/blocks/MetaData/Event) to [MetaData](../../docs/blocks/MetaData) block|![http://crmdialog.phuocle.net](images/03.png)![http://crmdialog.phuocle.net](images/04.png)
-|From [blocks](../../docs/blocks) drag [Header](../../docs/blocks/Header) and drop to [Main Form](../../)
-|From [blocks](../../docs/blocks) drag [label](../../docs/blocks/controls/Label) and drop to [Header](../../docs/blocks/Header) block|![http://crmdialog.phuocle.net](images/05.png)|<ul><li>**```pl_label_header```** the [logical name](../../docs/others/ControlId) of [label](../../docs/blocks/controls/Label) control</li><li>**```FIND USER ID```** the text you want to display</li><li>**```1```**</li><li>**```Is Title```** yes (Font bigger)</li><li>**```Visible```** yes</li></ul>
-|Continue add [label](../../docs/blocks/controls/Label) to [Header](../../docs/blocks/Header) block|![http://crmdialog.phuocle.net](images/06.png)
-|From [blocks](../../docs/blocks) drag [tab](../../docs/blocks/Tabs/Tab) and drop to [Tabs](../../docs/blocks/Tabs) block|![http://crmdialog.phuocle.net](images/07.png)|<ul><li>**```tab_35f76bc6_94fa_4e2a_9877_59eef45f6134```** is the auto generator [logical name](../../docs/others/ControlId) of [tab](../../docs/blocks/Tabs/Tab) control. You can change it.</li><li>**```Visible```** yes to display [tab](../../docs/blocks/Tabs/Tab).</li></ul>
-|[Section](../../docs/blocks/Tabs/Tab/Section) (auto create when you drop [tab](../../docs/blocks/Tabs/Tab) to [Tabs](../../docs/blocks/Tabs) block)|![http://crmdialog.phuocle.net](images/08.png)|<ul><li>**```section_1be6841e_eaad_4ace_bc51_974ab062d680```** is the auto generator [logical name](../../docs/others/ControlId) of [section](../../docs/blocks/Tabs/Section) control. You can change it.</li><li>**```BlankLabel```** keep it blank if you don't want to show the [section](../../docs/blocks/Tabs/Section) label</li><li>**```115```** the label width of [section](../../docs/blocks/Tabs/Section)</li><li>**```Left```** label alignment of [section](../../docs/blocks/Tabs/Section)</li><li>**```Left```** label position of [section](../../docs/blocks/Tabs/Section)</li><li>**```Visible```** yes to display [section](../../docs/blocks/Tabs/Section)</li></ul>
-|From [blocks](../../docs/blocks) drag [textbox](../../docs/controls/TextBox) and drop to [Section](../../docs/blocks/Tabs/Section)|![http://crmdialog.phuocle.net](images/09.png)|<ul><li>**```pl_txt_username```** the [logical name](../../docs/others/ControlId) of [textbox](../../docs/controls/TextBox) control and should **```unquie name```** on your form</p></li><li>**```User Name```** the label of [textbox](../../docs/controls/TextBox)</li><li>**```Text```** default. You can select another type: **```Email```** or **```URL```**</li><li>**```100```** max length value</li><li>**```Required```** yes</li><li>**```Disabled```** no</li><li>**```Visible```** yes</li><li>**```On Change```** event?</li><li>**```PCF```** bind to PCF control. Please check [PCF example](../example02)</li></ul>
-|Continue add another [textbox](../../docs/controls/TextBox) to [Section](../../docs/blocks/Tabs/Section)|![http://crmdialog.phuocle.net](images/10.png)
+|Select [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/01.png)|<ul><li><p>**```pl_example01```** the [logical name](../../docs/others/ControlId) of form dialog, should **```unique name```** of your organization</p></li><li>**```1033```** English(United States) language code</li><li>**```1.0.0.0```** solution version</li><li>**```Example 01```** the short description of the form</li><li>**```Find User Id```** the full description of the form</li><li><p>**```example01.OnLoad```** When form load, this function execute</p><p>*Noted:* The list empty because there are no [event](../../docs/blocks/MetaData/Event) exist on [metadata](../../docs/blocks/MetaData) block, you will back and update it later</p></li></ul>
+|From [blocks](../../docs/blocks) drag [event](../../docs/blocks/MetaData/Event) and drop to [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/02.png)|<p><ul><li>**```OnLoad```**</li><li>**```Enabled```** yes</li><li>**```pl_/examples/example01.js```** webresource unique name</li><li>**```example01.OnLoad```** trigger function name</li><li>**```Execution Context```** yes, pass the execution context as the first parameter to trigger function</li><li>**```Parameters```** pass as the first and/or second parameter to trigger function</li></ul></p><p>*Noted:* remember select [metadata](../../docs/blocks/MetaData) block to update the **```OnLoad```** property after you define this [event](../../docs/blocks/MetaData/Event)</p>
+|Continue add 2 [events](../../docs/blocks/MetaData/Event) to [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/03.png)![http://crmdialog.phuocle.net](images/04.png)
+|From [blocks](../../docs/blocks) drag [header](../../docs/blocks/Header) and drop to [main form](../../)
+|From [blocks](../../docs/blocks) drag [label](../../docs/blocks/controls/Label) and drop to [header](../../docs/blocks/Header)|![http://crmdialog.phuocle.net](images/05.png)|<ul><li>**```pl_label_header```** the [logical name](../../docs/others/ControlId) of [label](../../docs/blocks/controls/Label) control, should **```unique name```** on your form</li><li>**```FIND USER ID```**</li><li>**```1```** the number of rows use to render [label](../../docs/blocks/controls/Label) control</li><li>**```Is Title```** yes (make font bigger)</li><li>**```Visible```** yes</li></ul>
+|Continue add another [label](../../docs/blocks/controls/Label) to [header](../../docs/blocks/Header)|![http://crmdialog.phuocle.net](images/06.png)
+|From [blocks](../../docs/blocks) drag [tab](../../docs/blocks/Tabs/Tab) and drop to [tabs](../../docs/blocks/Tabs)|![http://crmdialog.phuocle.net](images/07.png)|<ul><li>**```tab_35f76bc6_94fa_4e2a_9877_59eef45f6134```** the [logical name](../../docs/others/ControlId) of [tab](../../docs/blocks/Tabs/Tab) control, should **```unique name```** on your form.</li><li>**```Visible```** yes</li></ul>
+|[Section](../../docs/blocks/Tabs/Tab/Section) (auto created when you drop [tab](../../docs/blocks/Tabs/Tab) to [tabs](../../docs/blocks/Tabs))|![http://crmdialog.phuocle.net](images/08.png)|<ul><li>**```section_1be6841e_eaad_4ace_bc51_974ab062d680```** the [logical name](../../docs/others/ControlId) of [section](../../docs/blocks/Tabs/Section) control, should **```unique name```** on your form.</li><li>**```Blank```** if you don't want to show the [section](../../docs/blocks/Tabs/Section) label</li><li>**```115```** the label width of [section](../../docs/blocks/Tabs/Section)</li><li>**```Left```** label alignment of [section](../../docs/blocks/Tabs/Section)</li><li>**```Left```** label position of [section](../../docs/blocks/Tabs/Section)</li><li>**```Visible```** yes</li></ul>
+|From [blocks](../../docs/blocks) drag [textbox](../../docs/controls/TextBox) and drop to [section](../../docs/blocks/Tabs/Section)|![http://crmdialog.phuocle.net](images/09.png)|<ul><li>**```pl_txt_username```** the [logical name](../../docs/others/ControlId) of [textbox](../../docs/controls/TextBox) control, should **```unique name```** on your form</li><li>**```User Name```**</li><li>**```Text```**</li><li>**```100```** max length value</li><li>**```Required```** yes</li><li>**```Disabled```** no</li><li>**```Visible```** yes</li><li>**```On Change```** blank</li><li>**```PCF```** blank</li></ul>
+|Continue add another [textbox](../../docs/controls/TextBox) to [section](../../docs/blocks/Tabs/Section)|![http://crmdialog.phuocle.net](images/10.png)
 |From [blocks](../../docs/blocks) drag [Footer](../../docs/blocks/Footer) and drop to [Main Form](../../)
-|From [blocks](../../docs/blocks) drag [button](../../docs/controls/Button) and drop to [Footer](../../docs/blocks/Footer)|![http://crmdialog.phuocle.net](images/11.png)|<ul><li>**```pl_button_find```**</li><li>**```Find```**</li><li>**```Disabled```** no</li><li>**```Visibled```** yes</li><li>**```example01.OnFindClick```** [event](../../docs/blocks/MetaData/Event) you already define above</li></ul>
-|Continue add another [button](../../docs/controls/Button) to [Footer](../../docs/blocks/Footer)|![http://crmdialog.phuocle.net](images/12.png)
+|From [blocks](../../docs/blocks) drag [button](../../docs/controls/Button) and drop to [footer](../../docs/blocks/Footer)|![http://crmdialog.phuocle.net](images/11.png)|<ul><li>**```pl_button_find```** the [logical name](../../docs/others/ControlId) of [button](../../docs/controls/Button) control, should **```unique name```** on your form</li><li>**```Find```**</li><li>**```Disabled```** no</li><li>**```Visibled```** yes</li><li>**```example01.OnFindClick```** select the existing [event](../../docs/blocks/MetaData/Event)</li></ul>
+|Continue add another [button](../../docs/controls/Button) to [footer](../../docs/blocks/Footer)|![http://crmdialog.phuocle.net](images/12.png)
 
 #### Final result with **```crmdialog```**
 
@@ -33,21 +33,15 @@ Find User Id of User Name.
 When design form, we used 3 events
 
 - **```example01.OnLoad```**
-  - Your Dynamics 365 CRM/CDS skill here ... nothing to say
 - **```example01.OnFindClick```**
-  - Your Dynamics 365 CRM/CDS skill here ... nothing to say
 - **```example01.OnCloseClick```** help you
-  - Close form
 
-And we need another event to open form
+We need another event to open form
 
-- **```example01.OnOpen```** help you
-  - Pass paramter to form
-  - Open form dialog
-  - Wait the data return back
+- **```example01.OnOpen```**
 
->The following code you see I used **```formContext.getAttribute(...)```** and **```formContext.data.attributes.get(...)```**\
-**You know why ?** Because, from the link: [Collections in the formContext object model](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/clientapi/clientapi-form-context#collections-in-the-formcontext-object-model) **```formContext.data.attributes```** provides access to **non-entity bound** attributes.
+>The following code, I used **```formContext.getAttribute(...)```** and **```formContext.data.attributes.get(...)```**\
+**You know why ?** Because, from the link: [Collections in the formContext object model](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/clientapi/clientapi-form-context#collections-in-the-formcontext-object-model) **```formContext.data.attributes```** provides access to **```non-entity bound attributes```**.
 
 #### Full **```example01.js```** code (JS ES6 code)
 
@@ -123,9 +117,21 @@ var example01 = (function () {
 })();
 ```
 
+- **```example01.OnOpen```**
+  - **```params```** object pass to form
+  - **```Xrm.Navigation.openDialog(...)```** open form dialog. **```YES```** this **```unsupported```** js code
+  - **```result.parameters```** object return from form
+  - **```formContext.getAttribute```** use to access **```entity bound attributes```**
+- **```example01.OnLoad```**
+  - **```formContext.data.attributes```** use to access **```non-entity bound attributes```**
+- **```example01.OnFindClick```**
+  - **```Xrm.WebApi```** use to access **```WebApi```**
+- **```example01.OnCloseClick```**
+  - **```formContext.ui.close()```** OOB js function close form
+
 ### 3. Export solution from **```crmdialog```** then import solution to Dynamics 365 CRM/CDS
 
->Make sure you upload **```example01.js```** as your WebResource with **```unquie name```** = **```pl_/examples/example01.js```** to your Dynamics 365 CRM/CDS, otherwise you get fail when import solution.
+>Make sure you upload **```example01.js```** as your WebResource with **```unique name```** = **```pl_/examples/example01.js```** to your Dynamics 365 CRM/CDS, otherwise you get fail when import solution.
 
 ![http://crmdialog.phuocle.net](images/02.gif)
 
@@ -135,9 +141,21 @@ var example01 = (function () {
 - Or OnLoad
 - Or some where ....
 
-### 5. Result and debugger
+### 5. Results
+
+#### 5.1. Chrome and debugger
 
 ![http://crmdialog.phuocle.net](images/03.gif)
+
+#### 5.2 Dynamics 365 CRM/CDS Mobile App
+
+![http://crmdialog.phuocle.net](images/04.gif)
+
+#### 5.3 Dynamics 365 CRM/CDS Tablet
+
+#### 5.4 Dyanmics 365 CRM/CDS App for Outlook
+
+![http://crmdialog.phuocle.net](images/05.gif)
 
 # Conclusion
 
@@ -145,7 +163,7 @@ This example show you howto:
 
 - Pass parameter value from parent form to dialog form
 - Open dialog form
-- OOB Dynamics 365 CRM/CDS javascript code (OnLoad, WebApi)
+- OOB Dynamics 365 CRM/CDS javascript code for bound and non-bound attributes
 - Close dialog form
-- Wait data return from dialog form and read it
+- Read data return from dialog form
 - Don't touch any **```FormXml```** code. (But you can open the [export solution](../../docs/others/ExportSolution) file to check **```FormXml```** code)
