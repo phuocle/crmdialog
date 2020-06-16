@@ -10,8 +10,8 @@ Find User Id of User Name.
 
 |Action|Properties|Description
 |-|-|-|
-|Select [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/01.png)|<ul><li><p>**```pl_example01```** the [logical name](../../docs/others/ControlId) of form dialog, should **```unique name```** of your organization</p></li><li>**```1033```** English(United States) language code</li><li>**```1.0.0.0```** solution version</li><li>**```Example 01```** the short description of the form</li><li>**```Find User Id```** the full description of the form</li><li><p>**```example01.OnLoad```** When form load, this function execute</p><p>*Noted:* The list empty because there are no [event](../../docs/blocks/MetaData/Event) exist on [metadata](../../docs/blocks/MetaData) block, you will back and update it later</p></li></ul>
-|From [blocks](../../docs/blocks) drag [event](../../docs/blocks/MetaData/Event) and drop to [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/02.png)|<p><ul><li>**```OnLoad```**</li><li>**```Enabled```** yes</li><li>**```pl_/examples/example01.js```** webresource unique name</li><li>**```example01.OnLoad```** trigger function name</li><li>**```Execution Context```** yes, pass the execution context as the first parameter to trigger function</li><li>**```Parameters```** pass as the first and/or second parameter to trigger function</li></ul></p><p>*Noted:* remember select [metadata](../../docs/blocks/MetaData) block to update the **```OnLoad```** property after you define this [event](../../docs/blocks/MetaData/Event)</p>
+|Select [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/01.png)|<ul><li><p>**```pl_example01```** the [logical name](../../docs/others/ControlId) of form dialog, should **```unique name```** of your organization</p></li><li>**```1033```** English(United States) language code</li><li>**```1.0.0.0```** solution version</li><li>**```Example 01```** the short description of the form</li><li>**```Find User Id```** the full description of the form</li><li><p>**```example01.OnLoad```** When form load, trigger the function</p><p>*Noted:* The list empty because there are no [event](../../docs/blocks/MetaData/Event) exist on [metadata](../../docs/blocks/MetaData), you will back and update it later</p></li></ul>
+|From [blocks](../../docs/blocks) drag [event](../../docs/blocks/MetaData/Event) and drop to [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/02.png)|<p><ul><li>**```OnLoad```**</li><li>**```Enabled```** yes</li><li>**```pl_/examples/example01.js```** webresource unique name</li><li>**```example01.OnLoad```** trigger function name</li><li>**```Execution Context```** yes, pass the execution context as the first parameter to trigger function</li><li>**```Parameters```** pass as the first and/or second parameter to trigger function</li></ul></p><p>*Noted:* remember select [metadata](../../docs/blocks/MetaData) to update the **```OnLoad```** property after you define this [event](../../docs/blocks/MetaData/Event)</p>
 |Continue add 2 [events](../../docs/blocks/MetaData/Event) to [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/03.png)![http://crmdialog.phuocle.net](images/04.png)
 |From [blocks](../../docs/blocks) drag [header](../../docs/blocks/Header) and drop to [main form](../../)
 |From [blocks](../../docs/blocks) drag [label](../../docs/blocks/controls/Label) and drop to [header](../../docs/blocks/Header)|![http://crmdialog.phuocle.net](images/05.png)|<ul><li>**```pl_label_header```** the [logical name](../../docs/others/ControlId) of [label](../../docs/blocks/controls/Label) control, should **```unique name```** on your form</li><li>**```FIND USER ID```**</li><li>**```1```** the number of rows use to render [label](../../docs/blocks/controls/Label) control</li><li>**```Is Title```** yes (make font bigger)</li><li>**```Visible```** yes</li></ul>
@@ -151,9 +151,7 @@ var example01 = (function () {
 
 ![http://crmdialog.phuocle.net](images/04.gif)
 
-#### 5.3 Dynamics 365 CRM/CDS Tablet
-
-#### 5.4 Dyanmics 365 CRM/CDS App for Outlook
+#### 5.3 Dyanmics 365 CRM/CDS App for Outlook
 
 ![http://crmdialog.phuocle.net](images/05.gif)
 
@@ -167,3 +165,7 @@ This example show you howto:
 - Close dialog form
 - Read data return from dialog form
 - Don't touch any **```FormXml```** code. (But you can open the [export solution](../../docs/others/ExportSolution) file to check **```FormXml```** code)
+
+# **```Download solution```**
+
+[pl_example01_1.0.0.0.zip](pl_example01_1.0.0.0.zip)

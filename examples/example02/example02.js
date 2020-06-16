@@ -1,58 +1,4 @@
-## Goal
-
-New Assign dialog
-
-![http://crmdialog.phuocle.net](images/01.gif)
-
-## Howto (5 steps)
-
-### 1. Design form with **```crmdialog```**
-
-|Action|Properties|Description
-|-|-|-|
-|[Metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/01.png)
-|[Parameter](../../docs/blocks/Parameter)|![http://crmdialog.phuocle.net](images/02.png)
-|[Parameter](../../docs/blocks/Parameter)|![http://crmdialog.phuocle.net](images/03.png)
-|[JavaScript](../../docs/blocks/JavaScript)|![http://crmdialog.phuocle.net](images/04.png)
-|[Event](../../docs/blocks/Event) **```OnLoad```**|![http://crmdialog.phuocle.net](images/05.png)
-|[Event](../../docs/blocks/Event) **```OnChange```**|![http://crmdialog.phuocle.net](images/06.png)
-|[Event](../../docs/blocks/Event) **```OnClick```** button Next on Tab 1|![http://crmdialog.phuocle.net](images/07.png)
-|[Event](../../docs/blocks/Event) **```OnClick```** button Next on Tab 1|![http://crmdialog.phuocle.net](images/08.png)
-|[Event](../../docs/blocks/Event) **```OnClick```** button Next on Tab 1|![http://crmdialog.phuocle.net](images/09.png)
-|[Event](../../docs/blocks/Event) **```OnClick```** button Next on Tab 1|![http://crmdialog.phuocle.net](images/10.png)
-|[Event](../../docs/blocks/Event) **```OnClick```** button Next on Tab 1|![http://crmdialog.phuocle.net](images/11.png)
-|[PCF](../../docs/blocks/PCF)|![http://crmdialog.phuocle.net](images/12.png)
-|Header
-|Label|![http://crmdialog.phuocle.net](images/13.png)
-|Label|![http://crmdialog.phuocle.net](images/14.png)
-|Tab|![http://crmdialog.phuocle.net](images/15.png)
-|TabHeader|
-|Label|![http://crmdialog.phuocle.net](images/16.png)
-|Section|![http://crmdialog.phuocle.net](images/17.png)
-|TabFooter|
-|Button|![http://crmdialog.phuocle.net](images/18.png)
-|Button|![http://crmdialog.phuocle.net](images/19.png)
-|Tab|![http://crmdialog.phuocle.net](images/20.png)
-|TabHeader|
-|Label|![http://crmdialog.phuocle.net](images/21.png)
-|Section|![http://crmdialog.phuocle.net](images/22.png)
-|Lookup User|![http://crmdialog.phuocle.net](images/23.png)
-|Lookup Team|![http://crmdialog.phuocle.net](images/24.png)
-|TabFooter|
-|Button|![http://crmdialog.phuocle.net](images/25.png)
-|Button|![http://crmdialog.phuocle.net](images/26.png)
-|Button|![http://crmdialog.phuocle.net](images/27.png)
-
-
-
-![http://crmdialog.phuocle.net](images/28.png)
-![http://crmdialog.phuocle.net](images/29.png)
-
-
-#### Full **```example02.js```** code (JS ES6 code)
-
-```js
-"use strict";//
+﻿"use strict";//
 var example02 = (function () {
     "use strict";
     const position = {
@@ -170,24 +116,3 @@ var example02 = (function () {
         OnAssignToClick: onAssignToClick
     };
 })();
-```
-
-# Conclusion
-
-This example show you howto:
-
-- Open dialog to right side (like Quick Create)
-- Use PCF control
-- Event OnChange when design-time form
-- Reference JS library in desgin-time and use it (WebApiClient.min.js, thanks: ....)
-- Reference *.resx to use multiple language
-- Multiple pages (like wizard) and howto nagivate to page
-- All OOB js function (dynamic addOption, fireOnChange, addOnChange)
-
-# **```Download solution```**
-
-- [pl_example02_1.0.0.0.zip](pl_example02_1.0.0.0.zip)
-- [example02.js](example02.js)
-- [WebApiClient.min.js](WebApiClient.min.js)
-- [resource.1033.resx](resource.1033.resx)
-- [resource.1066.resx](resource.1066.resx)

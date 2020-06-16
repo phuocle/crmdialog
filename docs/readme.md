@@ -1,4 +1,4 @@
-# Documents
+# **```crmdialog```**
 
 ![http://crmgialog.phuocle.net](images/02.png)
 
@@ -9,10 +9,10 @@ A dynamic properties window for the selected control.
 ## 2. Toolbars
 
 - **New**
-- **Save** save the current form designer to[LocalStorage](https://en.wikipedia.org/wiki/Local_storage). (Each 10 steps/actions system will trigger the auto-save.)
-- **Open** open your save data from [LocalStorage](https://en.wikipedia.org/wiki/Local_storage)
-- **[Import Solution](others/ImportSolution)** import existing Dynamics 365 CRM/CDS solution to **crmdialog** that you can update/edit the existing form dialog.
-- **[Export Solution](others/ExportSolution)** download Dynamics 365 CRM/CDS solution that **crmdialog** prepare that you can import it to Dynamics 365 CRM/CDS.
+- **Save** save the current form designer to [local storage](https://en.wikipedia.org/wiki/Local_storage). (Each 10 steps/actions system will trigger the auto-save.)
+- **Open** open your save data from [local storage](https://en.wikipedia.org/wiki/Local_storage)
+- **[Import solution](others/ImportSolution)** import existing Dynamics 365 CRM/CDS solution to **```crmdialog```** that you can update/edit the existing form dialog.
+- **[Export solution](others/ExportSolution)** download Dynamics 365 CRM/CDS solution that **```crmdialog```** prepare that you can import it to Dynamics 365 CRM/CDS.
 - **Preview**
 - **Undo**
 - **Redo**
