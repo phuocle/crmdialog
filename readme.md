@@ -1,10 +1,10 @@
-Friends, did you check [my announce crmdialog](https://www.phuocle.net/post/2020-06-14-crmdialog/)? If no, please check it before you continue.
+Friends, did you check [my announce crmdialog](https://www.phuocle.net/post/2020-06-21-crmdialog/)? If no, please check it before you continue
 
 ## 😠Unsupported😠
 
-**```YES```**, It **```true```** until now
+**```YES```**, until now
 
->But, I believed in the future, this will be **```supported```**. Let see.
+>I believed in the future, this will be **```supported```**. Let see.
 
 ## Why unsupported
 
@@ -20,10 +20,10 @@ and
 formContext.ui.moveTo(...)
 ```
 
-**```Xrm.Navigation```** have document at [Xrm.Navigation](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/clientapi/reference/xrm-navigation), but the function **```openDialog```** not there 😠\
-**```formContext.ui```** have document at [formContext.ui](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-ui), but the function **```moveTo```** not there  😠
+- **```Xrm.Navigation```** have document at [Xrm.Navigation](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/clientapi/reference/xrm-navigation), but the function **```openDialog```** not there 😠
+- **```formContext.ui```** have document at [formContext.ui](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-ui), but the function **```moveTo```** not there  😠
 
-Because **```not```** document, it mean **```unsupported```**. Easy !!!
+Because **```not```** document, mean **```unsupported```**. Easy !!!
 
 ## Howtos
 

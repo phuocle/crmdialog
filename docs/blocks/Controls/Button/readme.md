@@ -1,7 +1,5 @@
 # Button
 
-Render a button
-
 ## Draggable
 
 - [Footer](../../Footer)
@@ -17,7 +15,7 @@ Render a button
 |Label|**x**||![http://crmdialog.phuocle.net](../../../images/12.png)
 |Disabled|||![http://crmdialog.phuocle.net](../../../images/04.png)
 |Visible|||![http://crmdialog.phuocle.net](../../../images/05.png)
-|On Click|**x**|Fire [Event](../../MetaData/Event) when user click on the button
+|On Click|**x**|Fire [event](../../MetaData/Event) when user click on the button
 
 ## FormXml
 

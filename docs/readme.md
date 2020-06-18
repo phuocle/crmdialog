@@ -1,5 +1,3 @@
-# **```crmdialog```**
-
 ![http://crmgialog.phuocle.net](images/02.png)
 
 ## 1. Properties window
@@ -11,7 +9,7 @@ A window properties of the selected control
 - **New**
 - **Save** to [local storage](https://en.wikipedia.org/wiki/Local_storage). Each **```10```** steps/actions system trigger **```auto-save```**
 - **Open** from [local storage](https://en.wikipedia.org/wiki/Local_storage)
-- **[Upload](others/Upload)** **```existing```** **```Dynamics 365 CRM/CDS solution```** to **```crmdialog```** that you can **```update/edit the existing form dialog```**.
+- **[Upload](others/Upload)** an **```existing```** **```Dynamics 365 CRM/CDS solution```** to **```crmdialog```** that you can **```update/edit```** the form dialog
 - **[Download](others/Download)** **```Dynamics 365 CRM/CDS solution```** from **```crmdialog```**, then you can **```import to Dynamics 365 CRM/CDS```**
 - **Preview**
 - **Undo**
