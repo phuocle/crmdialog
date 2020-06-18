@@ -6,8 +6,6 @@
 
 ## FormXml
 
-### FormXml of Header
-
 ```xml
 <header id="{867cfdcf-abce-4f51-be57-60e43e8df46f}">
     <rows>

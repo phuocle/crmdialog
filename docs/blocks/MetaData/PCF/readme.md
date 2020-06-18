@@ -1,6 +1,6 @@
 # PCF
 
-You known PCF ? Yes, you can use it in crmdialog
+You known PCF ? Yes, you can use it in **```crmdialog```**
 
 ## Draggable To
 
@@ -12,14 +12,14 @@ You known PCF ? Yes, you can use it in crmdialog
 
 |Name|Required|Description|A picture is worth a thousand words
 |-|-|-|-|
-|Control Id|x|The [Control Id](../../../others/ControlId)|
+|Control Id|**x**|The [control id](../../../others/ControlId) of PCF|
 
-Click ```Edit``` button to manually update the ```xml``` of PCF
+Click **```Edit```** button to manually update the **```xml```** of PCF
 
 ![http://crmdialog.phuocle.net](../../../images/17.png)
 
 >**Note**
-If you don't known how to define the ```xml``` of PCF. I recommend you don't use it. Because if you do incorrect, the form load failed in Dynamics CRM/CDS.
+If you don't known how to define the **```xml```** of PCF. I recommend you don't use it. Because if you doing incorrect, the form load failed in Dynamics CRM/CDS.
 
 ## FormXml
 

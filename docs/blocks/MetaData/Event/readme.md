@@ -10,10 +10,10 @@
 
 |Name|Required|Description|A picture is worth a thousand words
 |-|-|-|-|
-|Type|x|<ul><li>OnLoad</li><li>OnClick</li><li>OnChange</li></ul>
+|Type|**x**|<ul><li>**```OnLoad```**</li><li>**```OnClick```**</li><li>**```OnChange```**</li></ul>
 |Enabled|||![http://crmdialog.phuocle.net](../../../images/07.png)
-|Library Name|x||![http://crmdialog.phuocle.net](../../../images/08.png)
-|Function Name|x||![http://crmdialog.phuocle.net](../../../images/09.png)
+|Library Name|**x**||![http://crmdialog.phuocle.net](../../../images/08.png)
+|Function Name|**x**||![http://crmdialog.phuocle.net](../../../images/09.png)
 |Execution Context|||![http://crmdialog.phuocle.net](../../../images/10.png)
 |Parameters|||![http://crmdialog.phuocle.net](../../../images/11.png)
 

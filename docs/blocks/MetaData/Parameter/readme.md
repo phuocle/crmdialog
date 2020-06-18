@@ -1,9 +1,9 @@
 # Parameter
 
-Pass a dynamic parameter to form with the correct type.
+Pass a dynamic parameter value to form
 
 >**Note**
-Please don't confuse with **Parameters** of [Event](../Event)
+Please don't confuse with **Parameters** of [event](../Event)
 
 ## Draggable To
 
@@ -15,8 +15,8 @@ Please don't confuse with **Parameters** of [Event](../Event)
 
 |Name|Required|Description|A picture is worth a thousand words
 |-|-|-|-|
-|Name|x|The [Parameter Name](../../../others/ControlId)|
-|Type|x|<ul><li>SafeString</li><li>Boolean</li><li>UniqueId</li><li>PositiveInteger</li><li>DateTime</li><li>EntityType</li><li>Object</li></ul>|
+|Name|**x**|The [parameter name](../../../others/ControlId)|
+|Type|**x**|<ul><li>**```SafeString```**</li><li>**```Boolean```**</li><li>**```UniqueId```**</li><li>**```PositiveInteger```**</li><li>**```DateTime```**</li><li>**```EntityType```**</li><li>**```Object```**</li></ul>|
 
 ## FormXml
 

@@ -4,15 +4,15 @@
 
 ## 1. Properties window
 
-A dynamic properties window for the selected control.
+A window properties of the selected control
 
 ## 2. Toolbars
 
 - **New**
-- **Save** save the current form designer to [local storage](https://en.wikipedia.org/wiki/Local_storage). (Each 10 steps/actions system will trigger the auto-save.)
-- **Open** open your save data from [local storage](https://en.wikipedia.org/wiki/Local_storage)
-- **[Import solution](others/ImportSolution)** import existing Dynamics 365 CRM/CDS solution to **```crmdialog```** that you can update/edit the existing form dialog.
-- **[Export solution](others/ExportSolution)** download Dynamics 365 CRM/CDS solution that **```crmdialog```** prepare that you can import it to Dynamics 365 CRM/CDS.
+- **Save** to [local storage](https://en.wikipedia.org/wiki/Local_storage). Each **```10```** steps/actions system trigger **```auto-save```**
+- **Open** from [local storage](https://en.wikipedia.org/wiki/Local_storage)
+- **[Upload](others/Upload)** **```existing```** **```Dynamics 365 CRM/CDS solution```** to **```crmdialog```** that you can **```update/edit the existing form dialog```**.
+- **[Download](others/Download)** **```Dynamics 365 CRM/CDS solution```** from **```crmdialog```**, then you can **```import to Dynamics 365 CRM/CDS```**
 - **Preview**
 - **Undo**
 - **Redo**

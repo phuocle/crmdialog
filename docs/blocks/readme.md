@@ -1,12 +1,12 @@
 # BLOCKS
 
-The following table list the blocks you can drag'n'drop to Form designer.
+The following table list the blocks you can drag'n'drop
 
-- Block Level 1 can drag'n'drop to Main form designer.
-- Block Level 2 can drag'n'drop to Block Level 1
+- **```Block Level 1```** can drag'n'drop to **```Main form```**
+- **```Block Level 2```** can drag'n'drop to **```Block Level 1```**
 - ...
 
-|Block Level 1|Block Level 2|Block Level 3|Block Level 4|Notes|
+|**Block Level 1**|**Block Level 2**|**Block Level 3**|**Block Level 4**|**Notes**|
 |-|-|-|-|-|
 |[MetaData](MetaData)||||Default block, you cannot add/delete
 ||[Parameter](MetaData/Parameter)

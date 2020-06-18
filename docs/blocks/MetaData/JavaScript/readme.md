@@ -12,7 +12,7 @@ Reference and JavaScript to form. E.g. WebApi, Lodash, Underscore, ...
 
 |Name|Required|Description|A picture is worth a thousand words
 |-|-|-|-|
-|Library Name|x||![http://crmdialog.phuocle.net](../../../images/14.png)
+|Library Name|**x**||![http://crmdialog.phuocle.net](../../../images/14.png)
 
 ## FormXml
 

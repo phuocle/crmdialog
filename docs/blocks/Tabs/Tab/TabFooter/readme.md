@@ -6,8 +6,6 @@
 
 ## FormXml
 
-### FormXml of TabFooter
-
 ```xml
 <tabfooter id="{31478bb0-3fcd-4f4f-9765-8288766359e0}">
     <rows>
