@@ -21,6 +21,7 @@
 |Control Id|**x**|The [control id](../../../others/ControlId)
 |Label||The display label|
 |Type|**x**|<ul><li>**```DateAndTime```**</li><li>**```Date```**</li></ul>|
+|Required|||![http://crmdialog.phuocle.net](../../../images/01.png)
 |Disabled|||![http://crmdialog.phuocle.net](../../../images/04.png)
 |Visible|||![http://crmdialog.phuocle.net](../../../images/05.png)
 |On Change||Fire [event](../../MetaData/Event) when user change the value

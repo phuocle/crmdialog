@@ -24,7 +24,7 @@
 |Name|Required|Description|A picture is worth a thousand words
 |-|-|-|-|
 |Control Id|**x**|The [control id](../../../others/ControlId)
-|Label||The display label|
+|Label||The display label
 |Type|**x**|<ul><li>**```Language```**</li><li>**```Duration```**</li><li>**```Time Zone```**</li></ul>|
 |Required|||![http://crmdialog.phuocle.net](../../../images/01.png)
 |Disabled|||![http://crmdialog.phuocle.net](../../../images/04.png)
