@@ -165,7 +165,3 @@ This example show you howto:
 - Close dialog form
 - Read data return from dialog form
 - Don't touch any **```FormXml```** code. (But you can open the [export solution](../../docs/others/ExportSolution) file to check **```FormXml```** code)
-
-# **```Download solution```**
-
-[pl_example01_1.0.0.0.zip](pl_example01_1.0.0.0.zip)
