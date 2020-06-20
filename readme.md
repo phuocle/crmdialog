@@ -1,4 +1,4 @@
-Friends, did you check [my announce crmdialog](https://www.phuocle.net/post/2020-06-21-crmdialog/)? If no, please check it before you continue
+Friends, did you check [my announce **```crmdialog```**](https://www.phuocle.net/post/2020-06-21-crmdialog/)? If no, please check it before you continue
 
 ## 😠Unsupported😠
 
@@ -27,14 +27,11 @@ Because **```not```** document, mean **```unsupported```**. Easy !!!
 
 ## Howtos
 
-- [Use crmdialog](docs)
+- [Use **```crmdialog```**](docs)
 - [Open form dialog](docs/others/OpenFormDialog)
-- [Pass data to form](docs/others/PassDataToForm)
-- [Read data from dialog after from closed](docs/others/ReadDataAfterFormClosed)
 - [Move to other tab](docs/others/MoveToOtherTab)
-- [Close form](docs/others/CloseForm)
-- [Form dialog options](docs/others/FormDialogOptions)
-- [PCF](docs/others/PCF)
+- [Close form dialog](docs/others/CloseForm)
+- [PCF references](docs/others/PCF)
 
 ## Examples
 
