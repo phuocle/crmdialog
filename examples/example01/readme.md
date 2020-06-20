@@ -147,7 +147,7 @@ var example01 = (function () {
 
 ![http://crmdialog.phuocle.net](images/03.gif)
 
-#### 5.2 Dynamics 365 CRM/CDS Mobile App
+#### 5.2 Dynamics 365 CRM/CDS Mobile App (Samsung Galaxy Note 8)
 
 ![http://crmdialog.phuocle.net](images/04.gif)
 
@@ -157,11 +157,11 @@ var example01 = (function () {
 
 # Conclusion
 
-This example show you howto:
+**This example show you howtos:**
 
 - Pass parameter value from parent form to dialog form
 - Open dialog form
 - OOB Dynamics 365 CRM/CDS javascript code for bound and non-bound attributes
 - Close dialog form
 - Read data return from dialog form
-- Don't touch any **```FormXml```** code. (But you can open the [export solution](../../docs/others/ExportSolution) file to check **```FormXml```** code)
+- Don't touch any **```FormXml```** code. (But you can open the [download](../../docs/others/Download) file to check **```FormXml```** code)
