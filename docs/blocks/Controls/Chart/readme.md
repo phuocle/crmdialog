@@ -1,12 +1,14 @@
 # Chart
 
+![http://crmdialog.phuocle.net](images/04.png)
+
 ## Draggable
 
 - [Section](../../Section)
 
 ## Properties
 
-![http://crmdialog.phuocle.net](../../../images/21.png)
+![http://crmdialog.phuocle.net](images/01.png)
 
 |Name|Required|Description|A picture is worth a thousand words
 |-|-|-|-|
@@ -15,8 +17,8 @@
 |ViewId|**x**|**```GUID```**|![http://crmdialog.phuocle.net](../../../images/20.png)
 |User View?|||![http://crmdialog.phuocle.net](../../../images/22.png)
 |ViewIds||List **```ViewId```** seperator by **```,```**
-|Visualization Id|**x**|**```GUID```**|![http://crmdialog.phuocle.net](../../../images/19.png)
-|User Chart?|||![http://crmdialog.phuocle.net](../../../images/23.png)
+|Visualization Id|**x**|**```GUID```**|![http://crmdialog.phuocle.net](images/03.png)
+|User Chart?|||![http://crmdialog.phuocle.net](images/02.png)
 |Enable Chart Picker||Allow user change to another chart or not
 |Rows|**x**|The number of rows for chart render
 |Visible|||![http://crmdialog.phuocle.net](../../../images/05.png)

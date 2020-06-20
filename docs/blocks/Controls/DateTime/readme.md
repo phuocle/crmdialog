@@ -1,18 +1,26 @@
 # DateTime
 
+##### 1. DateAndTime
+
+![http://crmdialog.phuocle.net](images/02.png)
+
+##### 2. Date
+
+![http://crmdialog.phuocle.net](images/03.png)
+
 ## Draggable
 
 - [Section](../../Section)
 
 ## Properties
 
-![http://crmdialog.phuocle.net](../../../images/24.png)
+![http://crmdialog.phuocle.net](images/01.png)
 
 |Name|Required|Description|A picture is worth a thousand words
 |-|-|-|-|
 |Control Id|**x**|The [control id](../../../others/ControlId)
 |Label||The display label|
-|Type|**x**|<ul><li>**```DateAndTime```**</li><li>**```Date```**</li></ul>|![http://crmdialog.phuocle.net](../../../images/25.png)
+|Type|**x**|<ul><li>**```DateAndTime```**</li><li>**```Date```**</li></ul>|
 |Disabled|||![http://crmdialog.phuocle.net](../../../images/04.png)
 |Visible|||![http://crmdialog.phuocle.net](../../../images/05.png)
 |On Change||Fire [event](../../MetaData/Event) when user change the value

@@ -1,5 +1,7 @@
 # Button
 
+![http://crmdialog.phuocle.net](images/02.png)
+
 ## Draggable
 
 - [Footer](../../Footer)
@@ -7,12 +9,12 @@
 
 ## Properties
 
-![http://crmdialog.phuocle.net](../../../images/03.png)
+![http://crmdialog.phuocle.net](images/01.png)
 
 |Name|Required|Description|A picture is worth a thousand words
 |-|-|-|-|
 |Control Id|**x**|The [control id](../../../others/ControlId)
-|Label|**x**||![http://crmdialog.phuocle.net](../../../images/12.png)
+|Label|**x**|The button label
 |Disabled|||![http://crmdialog.phuocle.net](../../../images/04.png)
 |Visible|||![http://crmdialog.phuocle.net](../../../images/05.png)
 |On Click|**x**|Fire [event](../../MetaData/Event) when user click on the button

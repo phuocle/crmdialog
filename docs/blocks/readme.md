@@ -8,18 +8,18 @@ The following table list the blocks you can drag'n'drop
 
 |**Block Level 1**|**Block Level 2**|**Block Level 3**|**Block Level 4**|**Notes**|
 |-|-|-|-|-|
-|[MetaData](MetaData)||||Default block, you cannot add/delete
+|[MetaData](MetaData)||||**```Default metadata```**, **```cannot delete```** or **```add new```**
 ||[Parameter](MetaData/Parameter)
 ||[Event](MetaData/Event)
 ||[JavaScript](MetaData/JavaScript)
 ||[PCF](MetaData/PCF)
-|[Header](Header)||||You can add only 1 header
+|[Header](Header)||||Only **```1 header```** on **```form```**
 ||[Label](Controls/Label)
-|[Tabs](Tabs)||||Default tabs, you cannot add/delete
-||[Tab](Tabs/Tab)|||You can add more than 1 tab. First tab will display onload, otherwise you need use the js code to show antoher tab.
-|||[TabHeader](Tabs/Tab/TabHeader)||You can add only 1 tabheader to tab
+|[Tabs](Tabs)||||**```Default tabs```**, **```cannot delete```** or **```add new```**
+||[Tab](Tabs/Tab)|||<ul><li>Can **```add multiple tab```** on **```form```**</li><li>**```First tab```** display **```OnLoad```**</li><li>**```Other tab```** need use [move to another tab](../others/MoveToOtherTab) to display</li></ul>
+|||[TabHeader](Tabs/Tab/TabHeader)||Only **```1 tabheader```** to **```tab```**
 ||||[Label](Controls/Label)
-|||[Section](Tabs/Tab/Section)||You can add more than 1 section to tab. But limited to 3
+|||[Section](Tabs/Tab/Section)||<ul><li>Can **```add multiple section```** to **```tab```**</li><li>Only **```3 section```** on **```tab```**</li><li>**```Section```** render as **```column```** on **```form```**</li></ul>
 ||||[Label](Controls/Label)
 ||||[TextBox](Controls/TextBox)
 ||||[DateTime](Controls/DateTime)
@@ -33,7 +33,7 @@ The following table list the blocks you can drag'n'drop
 ||||[TwoOptions](Controls/TwoOptions)
 ||||[Subgrid](Controls/Subgrid)
 ||||[Chart](Controls/Chart)
-|||[TabFooter](Tabs/Tab/TabFooter)||You can add only 1 tabfooter to tab
+|||[TabFooter](Tabs/Tab/TabFooter)||Only **```1 tabfooter```** to **```tab```**
 ||||[Button](Controls/Button)
-|[Footer](Footer)||||You can add only 1 footer
+|[Footer](Footer)||||Only **```1 footer```** on **```form```**
 ||[Button](Controls/Button)||
