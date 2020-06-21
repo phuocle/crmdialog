@@ -33,8 +33,6 @@ Find User Id of User Name.
 >The following code, I used **```formContext.getAttribute(...)```** and **```formContext.data.attributes.get(...)```**\
 **You know why ?** Because, from the link: [Collections in the formContext object model](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/clientapi/clientapi-form-context#collections-in-the-formcontext-object-model) **```formContext.data.attributes```** provides access to **```non-entity bound attributes```**.
 
-#### Full **```example01.js```** code (JS ES6 code)
-
 ```js
 "use strict";
 var example01 = (function () {
