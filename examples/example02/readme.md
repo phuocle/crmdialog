@@ -10,43 +10,47 @@ New Assign dialog
 
 |Action|Properties|Description
 |-|-|-|
-|[Metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/01.png)
-|[Parameter](../../docs/blocks/Parameter)|![http://crmdialog.phuocle.net](images/02.png)
-|[Parameter](../../docs/blocks/Parameter)|![http://crmdialog.phuocle.net](images/03.png)
-|[JavaScript](../../docs/blocks/JavaScript)|![http://crmdialog.phuocle.net](images/04.png)
-|[Event](../../docs/blocks/Event) **```OnLoad```**|![http://crmdialog.phuocle.net](images/05.png)
-|[Event](../../docs/blocks/Event) **```OnChange```**|![http://crmdialog.phuocle.net](images/06.png)
-|[Event](../../docs/blocks/Event) **```OnClick```** button Next on Tab 1|![http://crmdialog.phuocle.net](images/07.png)
-|[Event](../../docs/blocks/Event) **```OnClick```** button Next on Tab 1|![http://crmdialog.phuocle.net](images/08.png)
-|[Event](../../docs/blocks/Event) **```OnClick```** button Next on Tab 1|![http://crmdialog.phuocle.net](images/09.png)
-|[Event](../../docs/blocks/Event) **```OnClick```** button Next on Tab 1|![http://crmdialog.phuocle.net](images/10.png)
-|[Event](../../docs/blocks/Event) **```OnClick```** button Next on Tab 1|![http://crmdialog.phuocle.net](images/11.png)
-|[PCF](../../docs/blocks/PCF)|![http://crmdialog.phuocle.net](images/12.png)
-|Header
-|Label|![http://crmdialog.phuocle.net](images/13.png)
-|Label|![http://crmdialog.phuocle.net](images/14.png)
-|Tab|![http://crmdialog.phuocle.net](images/15.png)
-|TabHeader|
-|Label|![http://crmdialog.phuocle.net](images/16.png)
-|Section|![http://crmdialog.phuocle.net](images/17.png)
-|TabFooter|
-|Button|![http://crmdialog.phuocle.net](images/18.png)
-|Button|![http://crmdialog.phuocle.net](images/19.png)
-|Tab|![http://crmdialog.phuocle.net](images/20.png)
-|TabHeader|
-|Label|![http://crmdialog.phuocle.net](images/21.png)
-|Section|![http://crmdialog.phuocle.net](images/22.png)
-|Lookup User|![http://crmdialog.phuocle.net](images/23.png)
-|Lookup Team|![http://crmdialog.phuocle.net](images/24.png)
-|TabFooter|
-|Button|![http://crmdialog.phuocle.net](images/25.png)
-|Button|![http://crmdialog.phuocle.net](images/26.png)
-|Button|![http://crmdialog.phuocle.net](images/27.png)
+|Select [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/01.png)
+|Add [parameter](../../docs/blocks/Parameter) to [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/02.png)
+|Continue add [parameter](../../docs/blocks/Parameter) to [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/03.png)
+|Add [javascript](../../docs/blocks/JavaScript) to [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/04.png)
+|Add [event](../../docs/blocks/Event) **```OnLoad```** to [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/05.png)
+|Continue add [event](../../docs/blocks/Event) **```OnChange```** to [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/06.png)
+|Continue add [event](../../docs/blocks/Event) **```OnClick```** for **```button Next on Tab 1```** to [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/07.png)
+|Continue add [event](../../docs/blocks/Event) **```OnClick```** for **```button Cancel on Tab 1```** to [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/08.png)
+|Continue add [event](../../docs/blocks/Event) **```OnClick```** for **```button Previous on Tab 2```** to [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/09.png)
+|Continue add [event](../../docs/blocks/Event) **```OnClick```** for **```button Cancel on Tab 2```** to [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/10.png)
+|Continue add [event](../../docs/blocks/Event) **```OnClick```** for **```button Assign on Tab 2```** to [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/11.png)
+|Add [PCF](../../docs/blocks/PCF) to [metadata](../../docs/blocks/MetaData)|![http://crmdialog.phuocle.net](images/12.png)|[Click here](../../docs/others/PCF/OOBOptionSetControl) to get the **```XML```** properties of PCF
+|Add [header](../../docs/blocks/Header) and drop to [main form](../../)
+|Add [label](../../docs/blocks/Controls/Label) to [header](../../docs/blocks/Header) |![http://crmdialog.phuocle.net](images/13.png)
+|Continue add [label](../../docs/blocks/Controls/Label) to [header](../../docs/blocks/Header)|![http://crmdialog.phuocle.net](images/14.png)
+|Add [tab](../../docs/blocks/Tabs/Tab) to [tabs](../../docs/blocks/Tabs)|![http://crmdialog.phuocle.net](images/15.png)
+|Add [tabheader](../../docs/blocks/Tabs/Tab/TabHeader) to [tab](../../docs/blocks/Tabs/Tab)|
+|Add [label](../../docs/blocks/Controls/Label) to [tabheader](../../docs/blocks/Tabs/Tab/TabHeader)|![http://crmdialog.phuocle.net](images/16.png)
+|Select [section](../../docs/blocks/Tabs/Tab/Section)|![http://crmdialog.phuocle.net](images/17.png)
+|Add [tabfooter](../../docs/blocks/Tabs/Tab/TabFooter) to [tab](../../docs/blocks/Tabs/Tab)|
+|Add [button](../../docs/blocks/Controls/Button) to [tabfooter](../../docs/blocks/Tabs/Tab/TabFooter)|![http://crmdialog.phuocle.net](images/18.png)
+|Continue add [button](../../docs/blocks/Controls/Button) to [tabfooter](../../docs/blocks/Tabs/Tab/TabFooter)|![http://crmdialog.phuocle.net](images/19.png)
+|Add second [tab](../../docs/blocks/Tabs/Tab) to [tabs](../../docs/blocks/Tabs)|![http://crmdialog.phuocle.net](images/20.png)
+|Add [tabheader](../../docs/blocks/Tabs/Tab/TabHeader) to second [tab](../../docs/blocks/Tabs/Tab)|
+|Add [label](../../docs/blocks/Controls/Label) to [tabheader](../../docs/blocks/Tabs/Tab/TabHeader)|![http://crmdialog.phuocle.net](images/21.png)
+|Select [section](../../docs/blocks/Tabs/Tab/Section)|![http://crmdialog.phuocle.net](images/22.png)
+|Add [lookup](../../docs/blocks/Controls/Lookup) to [section](../../docs/blocks/Tabs/Tab/Section)|![http://crmdialog.phuocle.net](images/23.png)
+|Continue add [lookup](../../docs/blocks/Controls/Lookup) to [section](../../docs/blocks/Tabs/Tab/Section)|![http://crmdialog.phuocle.net](images/24.png)
+|Add [tabfooter](../../docs/blocks/Tabs/Tab/TabFooter) to [tab](../../docs/blocks/Tabs/Tab)|
+|Add [button](../../docs/blocks/Controls/Button) to [tabfooter](../../docs/blocks/Tabs/Tab/TabFooter)|![http://crmdialog.phuocle.net](images/25.png)
+|Continue add [button](../../docs/blocks/Controls/Button) to [tabfooter](../../docs/blocks/Tabs/Tab/TabFooter)|![http://crmdialog.phuocle.net](images/26.png)
+|Continue add [button](../../docs/blocks/Controls/Button) to [tabfooter](../../docs/blocks/Tabs/Tab/TabFooter)|![http://crmdialog.phuocle.net](images/27.png)
 
-
+#### Final result with **```crmdialog```**
 
 ![http://crmdialog.phuocle.net](images/28.png)
 ![http://crmdialog.phuocle.net](images/29.png)
+
+### 2. Explain **```example02.js```**
+
+
 
 
 #### Full **```example02.js```** code (JS ES6 code)
@@ -172,14 +176,41 @@ var example02 = (function () {
 })();
 ```
 
+### 3. Export solution from **```crmdialog```** then import solution to Dynamics 365 CRM/CDS
+
+#### 3.1 Prepare files
+
+- **```example02.js```** is **```javascript```** WebResource **```unique name```** = **```pl_/examples/example02.js```**
+- **```WebApiClient.min.js```** is **```javascript```** WebResource **```unique name```** = **```pl_/lib/WebApiClient.min.js```**. You can [download WebApiClient.min.js](https://github.com/DigitalFlow/Xrm-WebApi-Client)
+- **```resource.1033.resx```** is **```resource```** WebResource **```unique name```** = **```pl_/resources/resource.1033.resx```**
+- **```resource.1066.resx```** is **```resource```** WebResource **```unique name```** = **```pl_/resources/resource.1066.resx```**
+- Setup **```pl_/examples/example02.js```** dependencies with **```pl_/resources/resource.1033.resx```** and **```pl_/resources/resource.1066.resx```**
+![http://crmdialog.phuocle.net](images/30.png)
+
+#### 3.2 Import solution
+
+- ...
+
+### 4. Fire **```example02.OnOpen```** to open the dialog form (testing only)
+
+- ...
+
+### 5. Results
+
+- ...
+
 # Conclusion
 
-This example show you howto:
+**This example show you howtos:**
 
 - Open dialog to right side (like Quick Create)
 - Use PCF control
 - Event OnChange when design-time form
-- Reference JS library in desgin-time and use it (WebApiClient.min.js, thanks: ....)
+- Reference javascript library in desgin-time and use it
 - Reference *.resx to use multiple language
-- Multiple pages (like wizard) and howto nagivate to page
-- All OOB js function (dynamic addOption, fireOnChange, addOnChange)
+- Multiple pages (like wizard) and howto navigate to page
+- Use OOB javascript function (addOption, fireOnChange, addOnChange, ...)
+
+## Files
+
+- [Files](files)

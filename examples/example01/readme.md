@@ -28,7 +28,7 @@ Find User Id of User Name.
 
 ![http://crmdialog.phuocle.net](images/13.png)
 
-### 2. **```example01.js```**
+### 2. Explain **```example01.js```**
 
 When design form, we used 3 events
 
@@ -165,3 +165,7 @@ var example01 = (function () {
 - Close dialog form
 - Read data return from dialog form
 - Don't touch any **```FormXml```** code. (But you can open the [download](../../docs/others/Download) file to check **```FormXml```** code)
+
+## Files
+
+- [Files](files)
