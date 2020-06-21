@@ -1,4 +1,4 @@
-## Goal
+# Goal
 
 Find User Id of User Name.
 
@@ -28,17 +28,7 @@ Find User Id of User Name.
 
 ![http://crmdialog.phuocle.net](images/13.png)
 
-### 2. Explain **```example01.js```**
-
-When design form, we used 3 events
-
-- **```example01.OnLoad```**
-- **```example01.OnFindClick```**
-- **```example01.OnCloseClick```** help you
-
-We need another event to open form
-
-- **```example01.OnOpen```**
+### Full **```example01.js```** code (JS ES6 code)
 
 >The following code, I used **```formContext.getAttribute(...)```** and **```formContext.data.attributes.get(...)```**\
 **You know why ?** Because, from the link: [Collections in the formContext object model](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/clientapi/clientapi-form-context#collections-in-the-formcontext-object-model) **```formContext.data.attributes```** provides access to **```non-entity bound attributes```**.

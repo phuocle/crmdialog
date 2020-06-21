@@ -1,4 +1,4 @@
-## Goal
+# Goal
 
 New Assign dialog
 
@@ -48,12 +48,10 @@ New Assign dialog
 ![http://crmdialog.phuocle.net](images/28.png)
 ![http://crmdialog.phuocle.net](images/29.png)
 
-### 2. Explain **```example02.js```**
+### Full **```example02.js```** code (JS ES6 code)
 
-
-
-
-#### Full **```example02.js```** code (JS ES6 code)
+>The following code, I used **```formContext.getAttribute(...)```** and **```formContext.data.attributes.get(...)```**\
+**You know why ?** Because, from the link: [Collections in the formContext object model](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/clientapi/clientapi-form-context#collections-in-the-formcontext-object-model) **```formContext.data.attributes```** provides access to **```non-entity bound attributes```**.
 
 ```js
 "use strict";//
