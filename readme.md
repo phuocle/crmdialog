@@ -1,4 +1,4 @@
-# **```Archived ```**, check newer version at: [Dataverse Dialog Builder](https://github.com/phuocle/Dataverse-Dialog-Builder)
+# **```Archived```**, check newer version at: [Dataverse Dialog Builder](https://github.com/phuocle/Dataverse-Dialog-Builder)
 
 Friends, did you check [my announce **```crmdialog```**](https://www.phuocle.net/post/2020-06-20-crmdialog/)? If no, please check it before you continue
 
